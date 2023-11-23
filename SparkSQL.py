@@ -41,7 +41,7 @@ sdf_new.printSchema()
 
 #Create a table view
 
-sdf_new.createOrReplaceTempView('cars')
+sdf.createOrReplaceTempView('cars')
 
 #Running SQL queries and aggregations on the table view
 
